@@ -1,0 +1,11 @@
+- name: Install required libraries
+  apt:
+    name: "{{item}}"
+    state: latest
+    update_cache: yes
+  with_items:
+    - libgtk-3-0
+    - libnss3
+    - libxss1
+    - libgconf-2-4
+    - libasound2

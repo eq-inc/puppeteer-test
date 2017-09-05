@@ -1,0 +1,23 @@
+{
+    "name": "puppeteer-test",
+    "version": "1.0.0",
+    "homepage": "https://github.com/eq-inc/puppeteer-test",
+    "license": "Apache-2.0",
+    "author": "Kazuma Fujimaki <fujimaki@eq-inc.jp>",
+    "main": "test.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eq-inc/puppeteer-test.git"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --no-timeouts ./test.js"
+    },
+    "dependencies": {
+        "puppeteer": "^0.10.1",
+        "expect.js": "^0.3.1",
+        "mocha": "^3.4.2"
+    },
+    "engines": {
+        "node": ">=7.6.0"
+    }
+}
